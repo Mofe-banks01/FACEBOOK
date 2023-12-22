@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+}
+.main-landing-page-container {
+  position: relative;
+  z-index: 2;
+  padding: 5%;
+  max-height: 100%;
+}
+.main-landing-page-container-logo {
+  position: relative;
+  max-height: 50rem;
+  width: 35%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 3;
+  margin-right: 2rem;
+  margin: 15% 0 10% 0; 
+}
+.main-logo-cont {
+  margin: 0 -1.5rem;
+}
+.main-logo {
+  height: 116px;
+}
+.main-logo-text {
+  width: 25.75rem;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-login-box-cont {
+  background-color: #fff;
+  position: relative;
+  width: 40%;
+  left: 60%;
+  top: 50%;
+  max-height: 100%;
+  margin: -35% 0 10% 0;
+  padding: 0.775rem;
+  display: flex;
+  flex-direction: column;
+  gap: 21.175px;
+  border-radius: 3.7775px;
+  border-bottom: #1877f2 3.5px;
+}
+.main-login-box-cont:hover {
+  -webkit-transition: all 1.75s;
+  -webkit-transition-delay: 0.3225s;
+  border-radius: 7px;
+  box-shadow: -20px -20px 93px #c3c3c3, 20px 20px 93px #fdfdfd;
+}
+.phone-details {
+  padding: 0.975rem;
+  border-radius: 5.77px;
+  border: outset;
+  width: auto;
+}
+
+.phone-details:placeholder-shown {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.05rem;
+}
+.phone-details:hover {
+}
+.phone-details-2 {
+  padding: 0.975rem;
+  border-radius: 5.77px;
+  border: outset;
+  width: auto;
+  background-color: #1877f2;
+  color: #fff;
+  font-size: 1.27rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.phone-details-2:hover {
+  -webkit-transition: all 1s;
+  -webkit-transition-delay: 0.325s;
+  background-color: #0a4faa;
+}
+.help-link {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-help-link {
+  text-decoration: none;
+}
+.main-help-link:hover {
+  color: #000;
+
+  -webkit-transition: all 1s;
+  -webkit-transition-delay: 0.322s;
+}
+.main-create-link {
+  max-height: 15rem;
+  margin: 1rem auto;
+  border-top: 1.02px solid rgb(156, 156, 156);
+  padding-top: 1.75rem;
+}
+.create-acc-box {
+  background-color: #42b72a;
+  color: #fff;
+  max-width: 15rem;
+  max-height: 6.8rem;
+  margin: -0.5rem 4rem;
+  display: inline-block;
+  outline: none;
+  border-radius: 9px;
+}
+.create-acc-box-links {
+  color: #fff;
+}
+.create-acc-box:hover {
+  -webkit-transition: all 1s;
+  -webkit-transition-delay: 0.3s;
+
+  background-color: #56cc3e;
+}
+@media (max-width: 62em) {
+  body {
+    text-align: center;
+  }
+}
