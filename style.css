@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 body {
+  max-width: 165rem;
+  margin: 0 auto;
+  padding: 0 0.6rem;
   background-color: aliceblue;
 }
 .main-landing-page-container {
@@ -14,7 +17,7 @@ body {
 }
 .main-landing-page-container-logo {
   position: relative;
-  max-height: 50rem;
+  height: 30rem;
   width: 35%;
   padding: 0.5rem;
   display: flex;
@@ -22,7 +25,7 @@ body {
   gap: 10px;
   z-index: 3;
   margin-right: 2rem;
-  margin: 15% 0 10% 0; 
+  margin: 15% 0 5% 0; 
 }
 .main-logo-cont {
   margin: 0 -1.5rem;
@@ -37,12 +40,13 @@ body {
 }
 .main-login-box-cont {
   background-color: #fff;
-  position: relative;
+  position:absolute;
   width: 40%;
-  left: 60%;
-  top: 50%;
-  max-height: 100%;
-  margin: -35% 0 10% 0;
+  left: 55%;
+  top: 20%;
+  bottom: 0%;
+  height: 53.5%;
+  /* margin: -50% 0 10% 0; */
   padding: 0.775rem;
   display: flex;
   flex-direction: column;
@@ -54,7 +58,7 @@ body {
   -webkit-transition: all 1.75s;
   -webkit-transition-delay: 0.3225s;
   border-radius: 7px;
-  box-shadow: -20px -20px 93px #c3c3c3, 20px 20px 93px #fdfdfd;
+  box-shadow: -20px -20px 93px #c3c3c3, 20px 20px 33px #fdfdfd;
 }
 .phone-details {
   padding: 0.975rem;
@@ -123,7 +127,5 @@ body {
   background-color: #56cc3e;
 }
 @media (max-width: 62em) {
-  body {
-    text-align: center;
-  }
+ 
 }
